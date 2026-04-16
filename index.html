@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Nakchadi ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- 🔐 LOCK -->
+<div id="lockScreen">
+    <h2>Enter Password ❤️</h2>
+    <input type="password" id="password" placeholder="Enter secret...">
+    <button onclick="checkPassword()">Unlock 💖</button>
+</div>
+
+<!-- INTRO -->
+<div id="intro" style="display:none;">
+    <h1>For My Nakchadi ❤️</h1>
+    <button onclick="startSurprise()">Enter My World 💖</button>
+</div>
+
+<!-- MAIN -->
+<div id="main" style="display:none;">
+    <h2 id="typing"></h2>
+
+    <div class="slideshow">
+        <img id="slide" src="assets/img1.jpg">
+    </div>
+
+    <button onclick="showFinal()">Click Here Jaanu 💖</button>
+
+    <div id="finalMessage" style="display:none;">
+        <h2>Will You Stay Forever With Me? ❤️</h2>
+        <button onclick="yesLove()">YES 💖</button>
+        <button onclick="noLove()">NO 😜</button>
+    </div>
+
+    <audio id="music" src="assets/song.mp3"></audio>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

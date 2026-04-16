@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#lockScreen, #intro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding: 12px 25px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.slideshow img {
+    width: 260px;
+    height: 360px;
+    border-radius: 15px;
+}
